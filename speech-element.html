@@ -1,0 +1,46 @@
+<link rel="import" href="../polymer/polymer.html">
+<!--
+Custom element for speech synthesis and recognition.
+
+##### Example
+
+    <speech-element accent="en-EN" autoplay="true" text="hello world"></speech-element>
+
+@element speech-element
+@blurb Custom element for speech synthesis and recognition.
+@status alpha
+@homepage https://github.com/vittominacori/speech-element/
+-->
+<polymer-element name="speech-element" attributes="autoplay accent text">
+
+    <template>
+
+        <link rel="stylesheet" href="speech-element.css">
+
+        <div class="container">
+
+            <div class="card">
+                <span class="final">{{text}}</span>
+                <span class="interim">{{interimText}}</span>
+            </div>
+
+            <div class="controls">
+
+                <div class="icon" on-click="{{play}}">
+                    <div class="headphones"></div>
+                </div>
+
+                <div class="icon" on-click="{{start}}">
+                    <div class="mic"></div>
+                    <div class="holder"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </template>
+
+    <script src="speech-element.js"></script>
+
+</polymer-element>

@@ -1,0 +1,24 @@
+{
+  "name": "speech-element",
+  "version": "0.0.1",
+  "authors": [
+    "Vittorio Minacori <vittoriominacori@gmail.com>"
+  ],
+  "description": "Custom element for speech synthesis and recognition.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "speech-element"
+  ],
+  "main": "speech-element.html",
+  "license": "MIT",
+  "homepage": "https://github.com/vittominacori/speech-element/",
+  "ignore": [
+    "/.*",
+    "/tests/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.2"
+  }
+}
