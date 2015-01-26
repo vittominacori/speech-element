@@ -122,6 +122,8 @@ Polymer({
                     that.interimText = e.results[i][0].transcript;
                 }
             }
+
+            that.listen.text = that.text;
         });
     },
     /* -- !SpeechRecognition --------------------------------------------------- */
