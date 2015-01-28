@@ -1,6 +1,6 @@
 {
   "name": "speech-element",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": [
     "Vittorio Minacori <vittoriominacori@gmail.com>"
   ],
@@ -15,10 +15,14 @@
   "license": "MIT",
   "homepage": "https://github.com/vittominacori/speech-element/",
   "ignore": [
-    "/.*",
-    "/tests/"
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "../",
+    "test",
+    "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^0.5.2"
+    "polymer": "~0.5.4"
   }
 }
