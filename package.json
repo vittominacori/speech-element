@@ -1,0 +1,25 @@
+{
+  "name": "speech-element",
+  "version": "1.0.0",
+  "description": "Custom Polymer element for speech synthesis and recognition.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vittominacori/speech-element.git"
+  },
+  "author": "Vittorio Minacori <vittoriominacori@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vittominacori/speech-element/issues"
+  },
+  "homepage": "https://github.com/vittominacori/speech-element",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

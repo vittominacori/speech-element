@@ -23,5 +23,5 @@ Go to [http://localhost:8000/speech-element/demo.html](http://localhost:8000/spe
 # Usage
 
 ```
-<speech-element accent="en-EN" autoplay="true" text="hello world"></speech-element>
+<speech-element language="en-EN" autoplay="true" text="hello world"></speech-element>
 ```

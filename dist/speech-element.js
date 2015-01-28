@@ -1,7 +1,7 @@
 Polymer({
     autoplay: false,
-    accent: 'en-EN',
-    text: 'You are awesome',
+    language: 'en-EN',
+    text: '',
 
     isListening: false,
     isTalking: false,
@@ -35,7 +35,7 @@ Polymer({
         this.talk.continuous = true;
         this.talk.interimResults = true;
 
-        this.listen.lang = this.accent;
+        this.listen.lang = this.language;
         this.listen.text = this.text;
 
         [

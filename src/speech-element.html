@@ -1,17 +1,17 @@
-<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../../polymer/polymer.html">
 <!--
-Custom element for speech synthesis and recognition.
+Custom Polymer element for speech synthesis and recognition.
 
 ##### Example
 
-    <speech-element accent="en-EN" autoplay="true" text="hello world"></speech-element>
+    <speech-element language="en-EN" autoplay="true" text="hello world"></speech-element>
 
 @element speech-element
 @blurb Custom element for speech synthesis and recognition.
 @status alpha
 @homepage https://github.com/vittominacori/speech-element/
 -->
-<polymer-element name="speech-element" attributes="autoplay accent text">
+<polymer-element name="speech-element" attributes="autoplay language text">
 
     <template>
 
@@ -26,14 +26,14 @@ Custom element for speech synthesis and recognition.
 
             <div class="controls">
 
-                <div class="icon" on-click="{{play}}">
+                <button class="icon" on-click="{{startSyn}}">
                     <div class="headphones"></div>
-                </div>
+                </button>
 
-                <div class="icon" on-click="{{start}}">
+                <button class="icon" on-click="{{startRec}}">
                     <div class="mic"></div>
                     <div class="holder"></div>
-                </div>
+                </button>
 
             </div>
 
